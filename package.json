@@ -1,0 +1,19 @@
+{
+  "name": "uri-resolver-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "离线 URI 相对引用解析与路径合并解释后端（RFC 3986 第 5 节）",
+  "type": "module",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"test/*.test.ts\"",
+    "start": "node dist/cli.js serve",
+    "dev": "node src/cli.ts serve",
+    "demo": "node dist/cli.js demo"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
