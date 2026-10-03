@@ -1,0 +1,14 @@
+{
+  "base": "http://a/b/c/d;p?q",
+  "items": [
+    { "reference": "g" },
+    { "reference": "../g" },
+    { "reference": "/g" },
+    { "reference": "//g" },
+    { "reference": "?y" },
+    { "reference": "#s" },
+    { "reference": "" },
+    { "reference": "a/%2e%2e/b" },
+    { "reference": "a/%zz" }
+  ]
+}
